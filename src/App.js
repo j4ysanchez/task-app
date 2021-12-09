@@ -11,6 +11,9 @@ import { useState, useEffect } from 'react'
 
 function App() {
 
+  for (let i = 0; i > 0; i++) {}
+
+
   const[showAddTask, setShowAddTask] = useState(false)
 
   const [tasks, setTasks] = useState([])
